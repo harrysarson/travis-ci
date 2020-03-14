@@ -7,6 +7,7 @@ The original PR to add Elm support to Travis-CI is [travis-ci/travis-ci#934](htt
 You may report issues about Elm support on Travis-CI on this repo.
 
 ## Example configurations
+
 | Name | Status | Configuration file |
 | ---- | ------ | ------------------ |
 | minimal app | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm</pre> |
