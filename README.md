@@ -9,7 +9,7 @@ You may report issues about Elm support on Travis-CI on this repo.
 ## Example configurations
 | Name | Status | Configuration file |
 | ---- | ------ | ------------------ |
-| minimal-app | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm</pre> |
-| minimal-app-elm-0.19.0 | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app-elm-0.19.0)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm<br/><br/>elm: elm0.19.0</pre> |
-| minimal-app-elm-0.19.0-array | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app-elm-0.19.0-array)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm<br/><br/>elm:<br/>  - elm0.19.0</pre> |
-| minimal-app-elm-0.19.1 | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app-elm-0.19.1)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm<br/><br/>elm: elm0.19.1</pre> |
+| minimal app | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm</pre> |
+| minimal app elm 0.19.0 | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app-elm-0.19.0)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm<br/><br/>elm: elm0.19.0</pre> |
+| minimal app elm 0.19.0 array | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app-elm-0.19.0-array)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm<br/><br/>elm:<br/>  - elm0.19.0</pre> |
+| minimal app elm 0.19.1 | [![Build Status](https://travis-ci.com/harrysarson/travis-ci.svg?branch=example-ci%2Fminimal-app-elm-0.19.1)](https://travis-ci.com/harrysarson/travis-ci/branches) | <pre>language: elm<br/><br/>elm: elm0.19.1</pre> |

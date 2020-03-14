@@ -38,6 +38,7 @@ def print_table():
             map(lambda s: re.search(r'^.*/example-ci/(.*)$', s),
                 git_remote_branches.stdout.splitlines())))
 
+    print('')
     print('| Name | Status | Configuration file |')
     print('| ---- | ------ | ------------------ |')
     for example in examples:
@@ -47,7 +48,7 @@ def print_table():
         badge_url = 'https://travis-ci.com/{}/travis-ci.svg?branch=example-ci%2F{}'.format(
             USER, example)
         print('| {} | {} | {} |'.format(
-            example,
+            example.replace('-', ' '),
             '[![Build Status]({})](https://travis-ci.com/{}/travis-ci/branches)'
             .format(badge_url, USER),
             '<pre>{}</pre>'.format(config.replace('\n', '<br/>'))))
